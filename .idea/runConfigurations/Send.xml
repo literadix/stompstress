@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Send" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="stompstress" />
+    <working_directory value="$PROJECT_DIR$" />
+    <parameters value="-count=10000 -rate=100" />
+    <kind value="PACKAGE" />
+    <package value="stompstress" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$/main.go" />
+    <method v="2" />
+  </configuration>
+</component>
