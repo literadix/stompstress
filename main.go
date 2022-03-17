@@ -71,10 +71,11 @@ func sendMessages() {
 	}
 
 	rl := ratelimit.New(*rateLimit) // messages per second
-	text := randSeq(*messageSize)
 
 	println("Sending messages ...")
 	for i := 1; i <= *messageCount; i++ {
+
+		text := randSeq(*messageSize)
 
 		if i%1000 == 0 {
 			fmt.Printf("Sent messages: %d\n", i)
