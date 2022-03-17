@@ -1,5 +1,6 @@
-# stompstress
-simple stomp stress tool
+# STOMP STRESS TOOL
+Simple stomp stress tool. It sends randomized text messages to a stomp queue. 
+
 
     $ ./stomp_stress --help
     
